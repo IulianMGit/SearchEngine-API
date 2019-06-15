@@ -9,7 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="SearchEngine.Data\**" />
+    <Compile Remove="SearchEngine.Services\**" />
+    <Content Remove="SearchEngine.Data\**" />
+    <Content Remove="SearchEngine.Services\**" />
+    <EmbeddedResource Remove="SearchEngine.Data\**" />
+    <EmbeddedResource Remove="SearchEngine.Services\**" />
+    <None Remove="SearchEngine.Data\**" />
+    <None Remove="SearchEngine.Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="SearchEngine.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +34,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SearchEngine-DataService\SearchEngine.Services.csproj" />
+    <ProjectReference Include="SearchEngine.Data\SearchEngine.Data.csproj" />
+    <ProjectReference Include="SearchEngine.Services\SearchEngine.Services.csproj" />
   </ItemGroup>
 
 </Project>

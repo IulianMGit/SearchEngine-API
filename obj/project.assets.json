@@ -12938,13 +12938,13 @@
     },
     "SearchEngine.Data/1.0.0": {
       "type": "project",
-      "path": "../SearchEngine.Data/SearchEngine.Data.csproj",
-      "msbuildProject": "../SearchEngine.Data/SearchEngine.Data.csproj"
+      "path": "SearchEngine.Data/SearchEngine.Data.csproj",
+      "msbuildProject": "SearchEngine.Data/SearchEngine.Data.csproj"
     },
     "SearchEngine.Services/1.0.0": {
       "type": "project",
-      "path": "../SearchEngine-DataService/SearchEngine.Services.csproj",
-      "msbuildProject": "../SearchEngine-DataService/SearchEngine.Services.csproj"
+      "path": "SearchEngine.Services/SearchEngine.Services.csproj",
+      "msbuildProject": "SearchEngine.Services/SearchEngine.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12953,6 +12953,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "MongoDB.Driver >= 2.9.0-beta1",
+      "SearchEngine.Data >= 1.0.0",
       "SearchEngine.Services >= 1.0.0"
     ]
   },
@@ -12986,8 +12987,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-DataService\\SearchEngine.Services.csproj": {
-              "projectPath": "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-DataService\\SearchEngine.Services.csproj"
+            "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-API\\SearchEngine.Data\\SearchEngine.Data.csproj": {
+              "projectPath": "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-API\\SearchEngine.Data\\SearchEngine.Data.csproj"
+            },
+            "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-API\\SearchEngine.Services\\SearchEngine.Services.csproj": {
+              "projectPath": "C:\\Users\\Iulian\\Documents\\Projects\\SearchEngine-API\\SearchEngine.Services\\SearchEngine.Services.csproj"
             }
           }
         }

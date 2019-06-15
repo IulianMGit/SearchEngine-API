@@ -1,0 +1,9 @@
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\bin\Debug\netcoreapp2.1\SearchEngine.DataService.deps.json
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\bin\Debug\netcoreapp2.1\SearchEngine.DataService.dll
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\bin\Debug\netcoreapp2.1\SearchEngine.DataService.pdb
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.csprojAssemblyReference.cache
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.csproj.CoreCompileInputs.cache
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.AssemblyInfoInputs.cache
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.AssemblyInfo.cs
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.dll
+C:\Users\Iulian\Documents\Projects\SearchEngine-DataService\obj\Debug\netcoreapp2.1\SearchEngine.DataService.pdb

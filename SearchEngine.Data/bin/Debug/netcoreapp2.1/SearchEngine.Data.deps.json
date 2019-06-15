@@ -1,15 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "9a4dff4be88a44dccf0fff9ab1af756e8b47e4b5"
+    "signature": "0afdab90b40713c6bc67a761c02f4f0f6f02016c"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "SearchEngine.Data/1.0.0": {
         "dependencies": {
-          "MongoDB.Driver": "2.8.1",
-          "SearchEngine.Services": "1.0.0"
+          "MongoDB.Driver": "2.9.0-beta1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1.0"
         },
         "runtime": {
           "SearchEngine.Data.dll": {}
@@ -52,39 +52,38 @@
           }
         }
       },
-      "MongoDB.Bson/2.8.1": {
+      "MongoDB.Bson/2.9.0-beta1": {
         "dependencies": {
           "System.Collections.NonGeneric": "4.0.1",
           "System.Diagnostics.Process": "4.1.0",
           "System.Dynamic.Runtime": "4.0.11",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
-          "System.Runtime.Serialization.Formatters": "4.3.0"
+          "System.Reflection.Emit.Lightweight": "4.3.0"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.8.1.0",
-            "fileVersion": "2.8.1.0"
+            "assemblyVersion": "2.9.0.0",
+            "fileVersion": "2.9.0.0"
           }
         }
       },
-      "MongoDB.Driver/2.8.1": {
+      "MongoDB.Driver/2.9.0-beta1": {
         "dependencies": {
-          "MongoDB.Bson": "2.8.1",
-          "MongoDB.Driver.Core": "2.8.1",
+          "MongoDB.Bson": "2.9.0-beta1",
+          "MongoDB.Driver.Core": "2.9.0-beta1",
           "System.ComponentModel.TypeConverter": "4.1.0",
           "System.Linq.Queryable": "4.0.1"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.dll": {
-            "assemblyVersion": "2.8.1.0",
-            "fileVersion": "2.8.1.0"
+            "assemblyVersion": "2.9.0.0",
+            "fileVersion": "2.9.0.0"
           }
         }
       },
-      "MongoDB.Driver.Core/2.8.1": {
+      "MongoDB.Driver.Core/2.9.0-beta1": {
         "dependencies": {
           "DnsClient": "1.2.0",
-          "MongoDB.Bson": "2.8.1",
+          "MongoDB.Bson": "2.9.0-beta1",
           "System.Collections.Specialized": "4.0.1",
           "System.Diagnostics.TextWriterTraceListener": "4.0.0",
           "System.Diagnostics.TraceSource": "4.0.0",
@@ -94,8 +93,8 @@
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {
-            "assemblyVersion": "2.8.1.0",
-            "fileVersion": "2.8.1.0"
+            "assemblyVersion": "2.9.0.0",
+            "fileVersion": "2.9.0.0"
           }
         }
       },
@@ -639,21 +638,6 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
-      "System.Runtime.Serialization.Formatters/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0"
-        }
-      },
-      "System.Runtime.Serialization.Primitives/4.3.0": {
-        "dependencies": {
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
       "System.Security.Claims/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -929,12 +913,12 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
-      "SearchEngine.Services/1.0.0": {
-        "dependencies": {
-          "MongoDB.Driver": "2.8.1"
-        },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1.0": {
         "runtime": {
-          "SearchEngine.Services.dll": {}
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
         }
       }
     }
@@ -966,26 +950,26 @@
       "path": "microsoft.win32.registry/4.0.0",
       "hashPath": "microsoft.win32.registry.4.0.0.nupkg.sha512"
     },
-    "MongoDB.Bson/2.8.1": {
+    "MongoDB.Bson/2.9.0-beta1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1VV78IbSRKGuqUAVX/qdXKsv1D1BJQutlBhOTHJ8eJPlXQ+5Y2jImiRy825+oHkKeqlc0Qu8NHA9BSqE/btCfA==",
-      "path": "mongodb.bson/2.8.1",
-      "hashPath": "mongodb.bson.2.8.1.nupkg.sha512"
+      "sha512": "sha512-hrLXeLl+lld5s8B3ZAbPgnGRS8Tph7fZQ+LVqO7hnxg8L8cRH+RrosXQ9QtjOw+ZOm6xJ+MkEZk9CkHfXyEgIg==",
+      "path": "mongodb.bson/2.9.0-beta1",
+      "hashPath": "mongodb.bson.2.9.0-beta1.nupkg.sha512"
     },
-    "MongoDB.Driver/2.8.1": {
+    "MongoDB.Driver/2.9.0-beta1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bmSL+w5P7k30AK9KKSOqzki845iHi+ul5ifp/mF977DjrBKn5ybmSuMoMjzyDzfXIH15cbPn19HnpAH8tnstUw==",
-      "path": "mongodb.driver/2.8.1",
-      "hashPath": "mongodb.driver.2.8.1.nupkg.sha512"
+      "sha512": "sha512-rr9ASTcSU/S76Z8gB+R5H7/E2jQpQj6ggGA9xB6A44a4NNEnMfTTXXG85dJYaoZkVH7JDNpNY6Rjd+PQ1YhdAQ==",
+      "path": "mongodb.driver/2.9.0-beta1",
+      "hashPath": "mongodb.driver.2.9.0-beta1.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.8.1": {
+    "MongoDB.Driver.Core/2.9.0-beta1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uyVhvAtURsS5jN3O8LexaAe6zNd8luDYjWZmuhI8tG+TMEsWTPlpWThgPZsX3gyib3Z/a8XSj/dTTATfv4RcuA==",
-      "path": "mongodb.driver.core/2.8.1",
-      "hashPath": "mongodb.driver.core.2.8.1.nupkg.sha512"
+      "sha512": "sha512-nhDDBC+NqKxLYOxlaioe/Q9qm9KAisRCFm1uYDlxRRtYj/D8E4ppArKEQyvf2/ZG+EfOU83U6IkdLtQA7ljdJQ==",
+      "path": "mongodb.driver.core/2.9.0-beta1",
+      "hashPath": "mongodb.driver.core.2.9.0-beta1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -1379,20 +1363,6 @@
       "path": "system.runtime.numerics/4.3.0",
       "hashPath": "system.runtime.numerics.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.Serialization.Formatters/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
-      "path": "system.runtime.serialization.formatters/4.3.0",
-      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
-    },
-    "System.Runtime.Serialization.Primitives/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
-      "path": "system.runtime.serialization.primitives/4.3.0",
-      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
-    },
     "System.Security.Claims/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1512,8 +1482,8 @@
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
     },
-    "SearchEngine.Services/1.0.0": {
-      "type": "project",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

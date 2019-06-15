@@ -28,6 +28,7 @@
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "MongoDB.Driver": "2.9.0-beta1",
+          "SearchEngine.Data": "1.0.0",
           "SearchEngine.Services": "1.0.0"
         },
         "runtime": {
